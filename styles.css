@@ -66,6 +66,13 @@ ul { list-style: none; }
     .nav-menu { position: fixed; top: 72px; left: 0; right: 0; background: var(--color-bg); flex-direction: column; padding: var(--spacing-6); transform: translateY(-100%); opacity: 0; visibility: hidden; transition: all 0.3s; box-shadow: var(--shadow-md); }
     .nav-menu.active { transform: translateY(0); opacity: 1; visibility: visible; }
     .nav-link { padding: var(--spacing-3) 0; }
+    .hero { padding: calc(72px + var(--spacing-8)) var(--spacing-4) var(--spacing-8); min-height: auto; }
+    .hero-content { width: 100%; }
+    .hero-tag { font-size: 0.75rem; }
+    .hero-title { font-size: 2rem; }
+    .hero-subtitle { font-size: 1rem; }
+    .hero-description { font-size: 0.9rem; margin-bottom: var(--spacing-6); }
+    .hero-grid { display: none; }
 }
 
 /* Hero */
